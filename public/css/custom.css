@@ -1,0 +1,21 @@
+/* You can customize theme styles here */
+
+.publication__year {
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    z-index: 2;
+}
+
+.publication__journal {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    z-index: 2;
+    position: relative;
+}
+
+.experience+.experience {
+    padding-top: 10px;
+}
