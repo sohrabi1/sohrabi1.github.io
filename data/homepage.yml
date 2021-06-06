@@ -1,0 +1,171 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Salma."
+  subtitle: "Machine Learning Researcher"
+  description: "I recently finished my doctoral studies in Computational Biology at <a target='_blank' href='https://www.mpibpc.mpg.de/en'>Max Planck Institute for Biophysical Chemistry.</a>."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://www.linkedin.com/in/ssohrabi/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/ssohrabi/"
+
+    - icon: "github"
+      URL: "https://github.com/sohrabi1"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/slmsoh"
+
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I love exploring large datasets to gain knowledge.
+    My research has focused on designing customized ML frameworks and working with biological data. I very much enjoy 
+    venturing into a new field, collaborating across disciplines, playing with data visualizations, 
+    and learning new technologies.
+
+    </p>
+    <p class="lead">
+    I like spending my free time hiking, reading popular science books, and playing boardgames. 
+    The pandemic encouraged me to rediscover my painting passion.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/ssohrabi/"
+  image:
+    x: "img/who-am-i/personal.png"
+    _2x: "img/who-am-i/personal_2X.png"
+  imageMobile:
+    x: "img/who-am-i/personal_mobile.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Max Planck Institute for Biophysical Chemistry"
+      year: "2017-2021"
+      degree: "PhD, Quantitative and Computational Biology "
+
+    - university: "Georg-August University"
+      year: "2015-2017"
+      degree: "MSc, International Max Planck Research School for Molecular Biology"
+
+    - university: "University of Tehran"
+      year: "2014-2015"
+      degree: "MSc, Direct PhD program in Molecular Biotechnology"
+
+    - university: "University of Tehran"
+      year: "2010-2014"
+      degree: "BSc, Direct PhD program in Biotechnology"
+
+    - university: "Farzanegan HS"
+      year: "2006-2010"
+      degree: "High School Diploma, Math & Physics"
+
+
+
+# experience
+experience:
+  enable: true
+  title: "Selected Publications"
+
+  items:
+    - title: "Thermodynamic modeling reveals widespread multivalent binding by RNA-binding proteins"
+      authors: "Salma Sohrabi-Jahromi, Johannes Söding (bioRxiv)"
+      year: "2021"
+
+    - title: "A High-Throughput screen for transcription activation domains reveals their sequence 
+    features and permits prediction by deep learning"
+      authors: "Ariel Erijman, Lukasz Kozlowski, Salma Sohrabi-Jahromi,..., Johannes Söding, Steven Hahn (Molecular Cell)"
+      year: "2020"
+
+    - title: "Transcriptome maps of general eukaryotic RNA degradation factors"
+      authors: "Salma Sohrabi-Jahromi, Katharina B Hofmann,..., Johannes Soeding, Patrick Cramer (eLife)"
+      year: "2019"
+
+    - title: "A kidney-specific genome-scale metabolic network model for analyzing focal segmental glomeru- losclerosis"
+      authors: "Salma Sohrabi-Jahromi, Sayed-Amir Marashi, Shiva Kalantari (Mammalian Genome)"
+      year: "2016"
+
+  button:
+    btnText: "Google Scholar"
+    URL: "https://scholar.google.com/citations?user=yLPNm7gAAAAJ&hl=en"
+
+# Client & Work
+client_and_work:
+  title: "Projects"
+  enable: false
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+
+# contact
+contact:
+  enable: false
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+
+  email:
+    title: "Email"
+    email: '<a href="mailto:email">email</a>'
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+testimonial:
+  enable: false
+
+newsletter:
+  enable: false
