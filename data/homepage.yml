@@ -39,7 +39,7 @@ about:
 
     </p>
     <p class="lead">
-    I like spending my free time hiking, reading popular science books, and playing boardgames. 
+    I like spending my free time hiking, reading popular science books, and playing board games. 
     The pandemic encouraged me to rediscover my painting passion.
     </p>'
   button:
@@ -98,7 +98,7 @@ experience:
       authors: "Salma Sohrabi-Jahromi, Katharina B Hofmann,..., Johannes Soeding, Patrick Cramer (eLife)"
       year: "2019"
 
-    - title: "A kidney-specific genome-scale metabolic network model for analyzing focal segmental glomeru- losclerosis"
+    - title: "A kidney-specific genome-scale metabolic network model for analyzing focal segmental glomerulosclerosis"
       authors: "Salma Sohrabi-Jahromi, Sayed-Amir Marashi, Shiva Kalantari (Mammalian Genome)"
       year: "2016"
 
