@@ -72,5 +72,4 @@ theme = "raditian-free-hugo-theme"
     text1 = "Salma"
     text2 = "Sohrabi-Jahromi"
 
-  [params.footer]
-      copyright = "© Raditian. All rights reserved."
+#[params.footer]
