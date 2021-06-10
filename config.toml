@@ -1,7 +1,6 @@
 baseURL = "https://salma.sohrabi.dev"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
-title = "Portfolio - Salma Sohrabi-Jahromi"
 
 # Plugins
 [params.plugins]
