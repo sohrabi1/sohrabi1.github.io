@@ -19,3 +19,20 @@
 .experience+.experience {
     padding-top: 10px;
 }
+
+.projects__description, .projects__description li{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.78;
+    letter-spacing: -.2px;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.project__ul {
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 15px;
+}

@@ -1,6 +1,7 @@
 baseURL = "https://salma.sohrabi.dev"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
+title = "Portfolio - Salma Sohrabi-Jahromi"
 
 # Plugins
 [params.plugins]
@@ -46,6 +47,11 @@ theme = "raditian-free-hugo-theme"
   URL = "#experience"
   weight = 4
 
+  [[menu.header]]
+  name = "Projects"
+  URL = "#projects"
+  weight = 5
+
   [[menu.footer]]
   name = "About"
   URL = "#about"
@@ -61,10 +67,15 @@ theme = "raditian-free-hugo-theme"
   URL = "#experience"
   weight = 4
 
+  [[menu.footer]]
+  name = "Projects"
+  URL = "#projects"
+  weight = 5
+
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "education", "experience",  "projects", "client-and-work", "testimonial", "contact", "newsletter"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 

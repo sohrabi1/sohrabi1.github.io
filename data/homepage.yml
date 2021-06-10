@@ -1,3 +1,12 @@
+head:
+  title: Salma
+favicon:
+  type: image/png
+  url_16: img/favicon/favicon-16x16.png
+  url_32: img/favicon/favicon-32x32.png
+  url_apple: img/favicon/apple-touch-icon.png
+  manifest: img/favicon/site.webmanifest
+
 # showcase
 showcase:
   enable: true
@@ -108,61 +117,89 @@ experience:
 
 # Client & Work
 client_and_work:
-  title: "Projects"
+  title: ""
   enable: false
 
-  works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
+projects:
+  title: "Projects"
+  enable: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
-      is_even: false
+  project_items:
+  - title: "Bipartite Motif Finder (BMF)"
+    description: "Open-source tool and web server for learning enriched spaced sub-sequences, 
+    highlighting binding preferences of a given RNA-binding protein."
+    highlights:
+      - optimized code for speed (AVX-optimization/C++/Cython),
+      - handled several terabytes of interaction data, explored several datasets to uncover interesting patterns,
+      - created a user-friendly interface and documentation,
+      - programmed a webserver for optimal accessibility.
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
-      is_even: true
+    button:
+      enable: true
+      icon: "icon-arrow-right"
+      btnText: "Web Server"
+      URL: "https://bmf.soedinglab.org"
+
+    image:
+      x: "img/works/bmf.jpg"
+      _2x: "img/works/bmf_2x.jpg"
+
+    is_even: true
+
+  - title: "Representation Learning to Predict Protein Function"
+    description: "Using pre-trained sequence-based representation to enhance NN classification of 
+    protein function (ungoing research)."
+    highlights:
+      - working with, designed, and manipulated neural networks (PyTorch and Keras),
+      - supervised and trained two students in understanding and applying neural networks.
+    button:
+      enable: false
+    image:
+      x: "img/works/esm.jpg"
+      _2x: "img/works/esm_2x.jpg"
+    is_even: false
+
+  - title: "CNNs to Predict Transcription Activation"
+    description: "Collaboration on using CNNs to find protein sequences that can activate gene transcription."
+    highlights:
+      - developed methods to interpret the network,
+      - compared the performance of the trained CNN with simpler ML classifiers.
+      
+    button:
+      enable: True
+      icon: "icon-arrow-right"
+      btnText: "Manuscript"
+      URL: "https://www.sciencedirect.com/science/article/pii/S1097276520302628"
+
+    image:
+      x: "img/works/adpred.jpg"
+      _2x: "img/works/adpred_2x.jpg"
+    is_even: true
+
+
+  - title: "Characterize RNA Degradation Proteins"
+    description: "Analyzed large-scale maps of 30 RNA degradation proteins to uncover 
+    their function and cross-correlated the data with available RNA-protein interaction datasets to identify potential partners."
+    highlights:
+      - exploratory analysis of a terabytes-sized sequence dataset to find functional signatures,
+      - worked alongside an interdisciplinary team of experimental and theoretical researchers,
+  #    - presented the results in several scientific meetings and received two presentation awards.   
+      
+    button:
+      enable: True
+      icon: "icon-arrow-right"
+      btnText: "Manuscript"
+      URL: "https://elifesciences.org/articles/47040"
+
+    image:
+      x: "img/works/degradation.jpg"
+      _2x: "img/works/degradation_2x.jpg"
+    is_even: False
 
 
 # contact
 contact:
   enable: false
-  title: "Contact"
-  form:
-    action: "#"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
-
-  email:
-    title: "Email"
-    email: '<a href="mailto:email">email</a>'
-
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Send Message"
 
 testimonial:
   enable: false
