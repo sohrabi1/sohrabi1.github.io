@@ -150,7 +150,7 @@ projects:
     description: "Using pre-trained sequence-based representation to enhance NN classification of 
     protein function (ungoing research)."
     highlights:
-      - working with, designed, and manipulated neural networks (PyTorch and Keras),
+      - worked with, designed, and manipulated neural networks (PyTorch and Keras),
       - supervised and trained two students in understanding and applying neural networks.
     button:
       enable: false
@@ -162,7 +162,7 @@ projects:
   - title: "CNNs to Predict Transcription Activation"
     description: "Collaboration on using CNNs to find protein sequences that can activate gene transcription."
     highlights:
-      - developed methods to interpret the network,
+      - developed methods to interpret network predictions,
       - compared the performance of the trained CNN with simpler ML classifiers.
       
     button:
@@ -182,7 +182,7 @@ projects:
     their function and cross-correlated the data with available RNA-protein interaction datasets to identify potential partners."
     highlights:
       - exploratory analysis of a terabytes-sized sequence dataset to find functional signatures,
-      - worked alongside an interdisciplinary team of experimental and theoretical researchers,
+      - worked alongside an interdisciplinary team of experimental and theoretical researchers.
   #    - presented the results in several scientific meetings and received two presentation awards.   
       
     button:
@@ -199,7 +199,20 @@ projects:
 
 # contact
 contact:
-  enable: false
+  enable: true
+  title: "Contact"
+  form:
+    method: "post"
+    action: "https://b3bw4q86k5.execute-api.us-east-1.amazonaws.com/dev/"
+    email_to: "02e818e6d5e63dd4663112dd724b6a9a941c2b4197ce1754356a4e11d19877ed32231c26c6a2f2d573cbfcb9e104cf755ce9fab1f05ce6b52bcc2d3625efe9be53dc26b734dd90945873ff1db14b499e763fd8c9dacd0237296e1d9dbf2fad5cecb936496bded38d0a3ecf774b167a1eb8"
+    redirect_url: "?submission_box=block#contact"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
 
 testimonial:
   enable: false

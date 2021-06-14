@@ -23,7 +23,7 @@
           </ul>
         {{ end }}
         {{ if .button.enable}}
-        <a href="{{ .button.URL | absURL }}" class="btn btn-primary"
+        <a href="{{ .button.URL | absURL }}" target="_blank" class="btn btn-primary"
           >{{ .button.btnText }}<i class="{{ .button.icon }}"></i
         ></a>
         {{ end }}
@@ -60,7 +60,7 @@
           {{ end }}
         </p>
         {{ if .button.enable}}
-        <a href="{{ .button.URL | absURL }}" class="btn btn-primary"
+        <a href="{{ .button.URL | absURL }}" target="_blank" class="btn btn-primary"
           >{{ .button.btnText }}<i class="{{ .button.icon }}"></i
         ></a>
         {{ end }}
@@ -69,5 +69,6 @@
     </div>
     {{ end }}
   </div>
+  
 </section>
 {{ end }}
