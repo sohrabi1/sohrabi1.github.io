@@ -21,8 +21,8 @@ showcase:
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "https://www.linkedin.com/in/ssohrabi/"
+    btnText: "Contact me!"
+    URL: "#contact"
 
   socialLinks:
     - icon: "linkedin"
