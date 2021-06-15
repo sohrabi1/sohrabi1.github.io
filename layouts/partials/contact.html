@@ -10,11 +10,12 @@
                         <input type="hidden" name="_redirect" value="{{.Site.BaseURL}}{{.Site.Data.homepage.contact.form.redirect_url}}">
                         <div class="row">
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="_replyTo" id="email"
-                                placeholder="{{ .Site.Data.homepage.contact.form.email }}"/>
+                                <input type="text" name="name" id="full_name"
+                                       placeholder="{{ .Site.Data.homepage.contact.form.full_name }}"/>
                             </div>
                             <div class="col-12 col-sm-6">
-                                
+                                <input type="text" name="_replyTo" id="email"
+                                placeholder="{{ .Site.Data.homepage.contact.form.email }}"/>
                             </div>
                         </div>
                         <div class="row pt-4">
