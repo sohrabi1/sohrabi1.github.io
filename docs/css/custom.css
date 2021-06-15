@@ -1,4 +1,26 @@
 /* You can customize theme styles here */
+.certification__date {
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    z-index: 2;
+}
+
+.certification__title {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.certification__institution, .certification__url{
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    z-index: 2;
+    position: relative;
+}
 
 .publication__year {
     position: relative;

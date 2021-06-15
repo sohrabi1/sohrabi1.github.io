@@ -32,11 +32,6 @@ theme = "raditian-free-hugo-theme"
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "#about"
-  weight = 2
-
-  [[menu.header]]
   name = "Education"
   URL = "#education"
   weight = 3
@@ -51,10 +46,10 @@ theme = "raditian-free-hugo-theme"
   URL = "#projects"
   weight = 5
 
-  [[menu.footer]]
-  name = "About"
-  URL = "#about"
-  weight = 2
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 6
 
   [[menu.footer]]
   name = "Education"
@@ -70,11 +65,16 @@ theme = "raditian-free-hugo-theme"
   name = "Projects"
   URL = "#projects"
   weight = 5
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 6
 
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience",  "projects", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "education", "certifications", "experience",  "projects", "client-and-work", "testimonial", "contact", "newsletter"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 

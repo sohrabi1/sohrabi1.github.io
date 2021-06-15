@@ -86,6 +86,32 @@ education:
       year: "2006-2010"
       degree: "High School Diploma, Math & Physics"
 
+# certifications
+certifications:
+  enable: true
+  title: "Certifications"
+  items:
+    - title: "Deep Learning Specialization"
+      year: "2020"
+      institution: "DeepLearning.AI | Coursera"
+      url: "https://www.coursera.org/account/accomplishments/specialization/certificate/79YJX5MHJGT5"
+
+    - title: "Natural Language Processing Specialization"
+      year: "2021"
+      institution: "DeepLearning.AI | Coursera"
+      url: "https://www.coursera.org/account/accomplishments/specialization/certificate/3CQUV847YBTU"
+
+    - title: "Deep Neural Networks with PyTorch"
+      year: "2021"
+      institution: "IBM | Coursera"
+      url: "https://www.coursera.org/account/accomplishments/certificate/BZEDDBVDBX2M"
+
+    - title: "AWS Cloud Technical Essentials"
+      year: "2021"
+      institution: "Amazon Web Services | Coursera"
+      url: "https://www.coursera.org/account/accomplishments/certificate/CTAGJEYK2GF2"
+
+
 
 
 # experience
