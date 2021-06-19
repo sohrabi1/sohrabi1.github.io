@@ -82,4 +82,5 @@ theme = "raditian-free-hugo-theme"
     text1 = "Salma"
     text2 = "Sohrabi-Jahromi"
 
-#[params.footer]
+  [params.footer]
+      copyright = "© 2021 Salma Sohrabi-Jahromi."
