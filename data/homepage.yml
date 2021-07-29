@@ -101,25 +101,30 @@ certifications:
       institution: "DeepLearning.AI | Coursera"
       url: "https://www.coursera.org/account/accomplishments/specialization/certificate/3CQUV847YBTU"
 
+    - title: "Practical Data Science Specialization"
+      year: "2021"
+      institution: "AWS & DeepLearning.AI | Coursera"
+      url: "https://www.coursera.org/account/accomplishments/specialization/certificate/H7RK44KBUEPN"
+
     - title: "Deep Neural Networks with PyTorch"
       year: "2021"
       institution: "IBM | Coursera"
       url: "https://www.coursera.org/account/accomplishments/certificate/BZEDDBVDBX2M"
 
+    - title: "SQL for Data Science"
+      year: "2021"
+      institution: "University of California, Davis | Coursera"
+      url: "https://www.coursera.org/account/accomplishments/certificate/T8F8SXSFWN3K"
+
     - title: "AWS Cloud Technical Essentials"
       year: "2021"
-      institution: "Amazon Web Services | Coursera"
+      institution: "AWS | Coursera"
       url: "https://www.coursera.org/account/accomplishments/certificate/CTAGJEYK2GF2"
     
     - title: "Agile Project Management"
       year: "2021"
       institution: "Google | Coursera"
       url: "https://www.coursera.org/account/accomplishments/certificate/D2VAMEC36P4C"
-
-    - title: "SQL for Data Science"
-      year: "2021"
-      institution: "University of California, Davis | Coursera"
-      url: "https://www.coursera.org/account/accomplishments/certificate/T8F8SXSFWN3K"
 
 
 
