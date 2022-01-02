@@ -1,0 +1,30 @@
+trigger:
+  - main
+
+jobs:
+  - job: macos_10_15
+    pool:
+      vmImage: 'macOS-10.15'
+    steps:
+      - checkout: self
+        persistCredentials: true
+        submodules: "true"
+      - script: |
+          brew update
+          brew install hugo
+        displayName: install dependencies
+      - script: |
+          hugo -d tmp
+          git checkout --force deploy
+          cp docs/CNAME tmp
+          rm -rf docs
+          cp -r tmp docs
+          rm -rf tmp
+          git add docs
+          if [ -n "$(git status --untracked-files=no --porcelain)" ]; then
+            git commit -m "[skip ci] deploy to web"
+            git push origin deploy
+          else
+            echo "no changes detected. Skipping..."
+          fi
+        displayName: deploy changes to webpage
