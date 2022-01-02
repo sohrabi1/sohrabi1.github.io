@@ -8,6 +8,7 @@
                     <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
                         <input type="hidden" name="_to" value="{{ .Site.Data.homepage.contact.form.email_to }}">
                         <input type="hidden" name="_redirect" value="{{.Site.BaseURL}}{{.Site.Data.homepage.contact.form.redirect_url}}">
+                        <input type="text" name="_honeypot" value="" style="display:none">
                         <div class="row">
                             <div class="col-12 col-sm-6">
                                 <input type="text" name="name" id="full_name"
