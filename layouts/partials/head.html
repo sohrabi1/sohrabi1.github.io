@@ -6,6 +6,18 @@
     })(window,document,'script','dataLayer','{{ .Site.Params.googleTagManagerID }}');</script>
 <!-- End Google Tag Manager -->
 
+<script src="https://www.google.com/recaptcha/api.js?render=6LeL1S0eAAAAAPQJoFtxmHym79XAAjlBg43nj2Mg"></script>
+
+<script>
+  grecaptcha.ready(function(){
+    grecaptcha.execute('6LeL1S0eAAAAAPQJoFtxmHym79XAAjlBg43nj2Mg').then(function(token) {
+       var obj = document.getElementById("recaptcha");
+       obj.setAttribute("value", token);
+    });
+});
+</script>
+
+
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
