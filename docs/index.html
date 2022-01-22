@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.91.2" />
+	<meta name="generator" content="Hugo 0.92.0" />
 
     
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -11,6 +11,18 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-52QJ8QC');</script>
+
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LeL1S0eAAAAAPQJoFtxmHym79XAAjlBg43nj2Mg"></script>
+
+<script>
+  grecaptcha.ready(function(){
+    grecaptcha.execute('6LeL1S0eAAAAAPQJoFtxmHym79XAAjlBg43nj2Mg').then(function(token) {
+       var obj = document.getElementById("recaptcha");
+       obj.setAttribute("value", token);
+    });
+});
+</script>
 
 
 <meta charset="UTF-8"/>
@@ -770,6 +782,7 @@
 
 	
 	
+
 <section id="contact" class="section section--contact pt-0">
     <div class="container">
         <div class="contact">
@@ -780,6 +793,7 @@
                         <input type="hidden" name="_to" value="02e818e6d5e63dd4663112dd724b6a9a941c2b4197ce1754356a4e11d19877ed32231c26c6a2f2d573cbfcb9e104cf755ce9fab1f05ce6b52bcc2d3625efe9be53dc26b734dd90945873ff1db14b499e763fd8c9dacd0237296e1d9dbf2fad5cecb936496bded38d0a3ecf774b167a1eb8">
                         <input type="hidden" name="_redirect" value="https://salma.sohrabi.dev?submission_box=block#contact">
                         <input type="text" name="_honeypot" value="" style="display:none">
+                        <input type="hidden" name="_recaptcha" id="recaptcha">
                         <div class="row">
                             <div class="col-12 col-sm-6">
                                 <input type="text" name="name" id="full_name"
