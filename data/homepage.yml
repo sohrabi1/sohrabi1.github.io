@@ -11,8 +11,8 @@ favicon:
 showcase:
   enable: true
   title: "Hello, I’m Salma."
-  subtitle: "Machine Learning Researcher"
-  description: "I recently finished my doctoral studies in Computational Biology at <a target='_blank' href='https://www.mpibpc.mpg.de/en'>Max Planck Institute for Biophysical Chemistry.</a>."
+  subtitle: "AI Scientist"
+  description: "With an academic background in Computational Biology, I currently work as an AI scientist at SAP's Deep Learning Center of Excellence. At work, I combine CV and NLP to automate document processing."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -41,8 +41,8 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I love exploring large datasets to gain knowledge.
-    My research has focused on designing customized ML frameworks and working with biological data. I very much enjoy 
+    I love exploring large datasets and developing ML solutions that automate repetitive tasks to hopefully make work more interesting for others!
+    My academic research focused on designing customized ML frameworks to predict function from RNA and protein sequences. I very much enjoy 
     venturing into a new field, collaborating across disciplines, playing with data visualizations, 
     and learning new technologies.
 
@@ -105,6 +105,11 @@ certifications:
       year: "2021"
       institution: "AWS & DeepLearning.AI | Coursera"
       url: "https://www.coursera.org/account/accomplishments/specialization/certificate/H7RK44KBUEPN"
+
+    - title: "TensorFlow: Advanced Techniques Specialization"
+      year: "2022"
+      institution: "AWS & DeepLearning.AI | Coursera"
+      url: "https://www.coursera.org/account/accomplishments/specialization/certificate/HZ32YM83SG9V"
 
     - title: "Deep Neural Networks with PyTorch"
       year: "2021"
