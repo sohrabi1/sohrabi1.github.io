@@ -1,0 +1,42 @@
+name: Build and deploy
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  update_webpage:
+    runs-on: macos-latest
+    steps:
+    - name: Checkout repository and submodules
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
+        persist-credentials: true
+        fetch-depth: 0
+    - name: Setup pixi
+      uses: prefix-dev/setup-pixi@v0.8.1
+      with:
+        pixi-version: v0.39.0
+        cache: true
+    - name: Run linter
+      run: pixi run install-precommit && pixi run lint
+    - name: Build webpage
+      run: pixi run hugo -d tmp
+    - name: Deploy changes to webpage
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: |
+        git checkout --force deploy
+        cp docs/CNAME tmp
+        rm -rf docs
+        cp -r tmp docs
+        rm -rf tmp
+        git add docs
+        if [ -n "$(git status --untracked-files=no --porcelain)" ]; then
+          git commit --no-verify -m "[skip ci] deploy to web"
+          git push origin deploy
+        else
+          echo "no changes detected. Skipping..."
+        fi

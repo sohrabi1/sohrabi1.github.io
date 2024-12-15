@@ -1,0 +1,20 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+exclude: "^pixi.lock$"
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+    -   id: trailing-whitespace
+        exclude: '\.svg$'
+    -   id: end-of-file-fixer
+        exclude: '\.svg$'
+    -   id: check-yaml
+        exclude: '\.svg$'
+    -   id: check-added-large-files
+        exclude: '\.svg$'
+-   repo: https://github.com/ComPWA/taplo-pre-commit
+    rev: v0.9.3
+    hooks:
+      - id: taplo-format
+        exclude: '\.svg$'

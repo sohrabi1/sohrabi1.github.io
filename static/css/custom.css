@@ -72,8 +72,8 @@
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
-  
-  
+
+
   /* The Close Button */
 .close {
     color: black;
@@ -81,7 +81,7 @@
     font-size: 28px;
     font-weight: bold;
   }
-  
+
 .close:hover,
 .close:focus {
     color: #E93F33;
@@ -95,17 +95,17 @@
     background-color: rgb(201, 201, 201);
     color: white;
   }
-  
+
   /* Modal Body */
 .modal_body {padding: 2px 16px;}
-  
+
   /* Modal Footer */
 .modal_footer {
     padding: 2px 16px;
     background-color: #D7BF84;
     color: white;
 }
-  
+
   /* Modal Content */
 .modal_content {
     position: relative;
@@ -117,4 +117,3 @@
     width: 60%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
-  

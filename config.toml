@@ -5,82 +5,93 @@ theme = "raditian-free-hugo-theme"
 # Plugins
 [params.plugins]
 
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "css/main.css"
-  [[params.plugins.css]]
-  URL = "css/rad-icons.css"
-  [[params.plugins.css]]
-  URL = "css/custom.css"
-  [[params.plugins.css]]
-  URL = "css/fontawesome.css"
-  [[params.plugins.css]]
-  URL = "css/brands.css"
-  [[params.plugins.css]]
-  URL = "css/solid.css"
+# CSS Plugins
+[[params.plugins.css]]
+URL = "css/main.css"
+[[params.plugins.css]]
+URL = "css/rad-icons.css"
+[[params.plugins.css]]
+URL = "css/custom.css"
+[[params.plugins.css]]
+URL = "css/fontawesome.css"
+[[params.plugins.css]]
+URL = "css/brands.css"
+[[params.plugins.css]]
+URL = "css/solid.css"
 
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "js/rad-animations.js"
-  [[params.plugins.js]]
-  URL = "js/sticky-header.js"
-  [[params.plugins.js]]
-  URL = "js/library/fontfaceobserver.js"
+# JS Plugins
+[[params.plugins.js]]
+URL = "js/rad-animations.js"
+[[params.plugins.js]]
+URL = "js/sticky-header.js"
+[[params.plugins.js]]
+URL = "js/library/fontfaceobserver.js"
 
 
 # navigation
 [menu]
 
-  [[menu.header]]
-  name = "Education"
-  URL = "#education"
-  weight = 3
+[[menu.header]]
+name = "Education"
+URL = "#education"
+weight = 3
 
-  [[menu.header]]
-  name = "Publications"
-  URL = "#experience"
-  weight = 4
+[[menu.header]]
+name = "Publications"
+URL = "#experience"
+weight = 4
 
-  [[menu.header]]
-  name = "Projects"
-  URL = "#projects"
-  weight = 5
+[[menu.header]]
+name = "Projects"
+URL = "#projects"
+weight = 5
 
-  [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 6
+[[menu.header]]
+name = "Contact"
+URL = "#contact"
+weight = 6
 
-  [[menu.footer]]
-  name = "Education"
-  URL = "#education"
-  weight = 3
+[[menu.footer]]
+name = "Education"
+URL = "#education"
+weight = 3
 
-  [[menu.footer]]
-  name = "Publications"
-  URL = "#experience"
-  weight = 4
+[[menu.footer]]
+name = "Publications"
+URL = "#experience"
+weight = 4
 
-  [[menu.footer]]
-  name = "Projects"
-  URL = "#projects"
-  weight = 5
+[[menu.footer]]
+name = "Projects"
+URL = "#projects"
+weight = 5
 
-  [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 6
+[[menu.footer]]
+name = "Contact"
+URL = "#contact"
+weight = 6
 
 
 [params]
 
-  sections = ["showcase", "about", "education", "certifications", "experience",  "projects", "client-and-work", "testimonial", "contact", "newsletter"]
+sections = [
+  "showcase",
+  "about",
+  "education",
+  "certifications",
+  "experience",
+  "projects",
+  "client-and-work",
+  "testimonial",
+  "contact",
+  "newsletter",
+]
 
-  googleTagManagerID = "GTM-52QJ8QC" # Google Analytics works with Google Tag Manager
+googleTagManagerID = "GTM-52QJ8QC" # Google Analytics works with Google Tag Manager
 
-  [params.logo]
-    text1 = "Salma"
-    text2 = "Sohrabi-Jahromi"
+[params.logo]
+text1 = "Salma"
+text2 = "Sohrabi-Jahromi"
 
-  [params.footer]
-      copyright = "© 2021 Salma Sohrabi-Jahromi."
+[params.footer]
+copyright = "© 2021 Salma Sohrabi-Jahromi."
