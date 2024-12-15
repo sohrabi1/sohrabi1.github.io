@@ -16,7 +16,7 @@
           {{ .description }}
         </p>
         {{ if (isset . "highlights")}}
-          <ul class="projects__description project__ul"> 
+          <ul class="projects__description project__ul">
             {{ range .highlights}}
               <li>{{ . }}</li>
             {{ end }}
@@ -52,7 +52,7 @@
         <p class="projects__description">
           {{ .description }}
           {{ if (isset . "highlights")}}
-          <ul class="projects__description project__ul"> 
+          <ul class="projects__description project__ul">
             {{ range .highlights}}
               <li>{{ . }}</li>
             {{ end }}
@@ -69,6 +69,6 @@
     </div>
     {{ end }}
   </div>
-  
+
 </section>
 {{ end }}
