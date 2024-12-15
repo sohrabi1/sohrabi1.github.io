@@ -19,15 +19,12 @@ jobs:
     - name: Setup pixi
       uses: prefix-dev/setup-pixi@v0.8.1
       with:
-        pixi-version: v0.38.0
+        pixi-version: v0.39.0
         cache: true
     - name: Run linter
       run: pixi run install-precommit && pixi run lint
     - name: Build webpage
-      run: |
-        brew update
-        brew install hugo
-        hugo -d tmp
+      run: pixi run hugo -d tmp
     - name: Deploy changes to webpage
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       run: |
