@@ -12,7 +12,7 @@ showcase:
   enable: true
   title: "Hello, I’m Salma."
   subtitle: "AI Scientist"
-  description: "With an academic background in Computational Biology, I am currently an AI scientist at SAP's Deep Learning Center of Excellence, where I combine CV and NLP to automate document information extraction."
+  description: "Data Science lead at the foundation model research team at SAP, building and fine-tuning large language models for enterprise applications."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -41,12 +41,10 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I love exploring large datasets to develop ML solutions that automate repetitive tasks and thereby make others&#39; work less tedious!
+    With an academic background in Machine Learning and Computational Biology, I currently work as a Senior AI scientist in the Foundation Model Research team at SAP. My work focuses on fine-tuning large language models and building Generative AI Applications. I currently lead the Data Science team at SAP, where we build AI assistants for ABAP developers.
     </p>
     <p class="lead">
-    My academic research focused on designing novel ML frameworks to predict function from RNA and protein sequences. I very much enjoy
-    venturing into new fields, collaborating across disciplines, playing with data visualizations,
-    and learning new technologies.
+    My academic research focused on developing statistical and machine learning models (NLP) based on high-throughput sequencing datasets to better understand biological systems.
 
     </p>
     <p class="lead">
@@ -163,19 +161,83 @@ experience:
     btnText: "Google Scholar"
     URL: "https://scholar.google.com/citations?user=yLPNm7gAAAAJ&hl=en"
 
-# Client & Work
-client_and_work:
-  title: ""
-  enable: false
+
+outreach:
+  title: "Recent Outreach"
+  enable: true
+  image: "img/who-am-i/outreach.jpg"
+  items:
+    - title: "Building Specialized LLM-based Enterprise Applications"
+      date: "Dec 2024"
+      occasion: "Berlin AI Meetup"
+      url: "https://lu.ma/fijehfqv"
+      icon: "fa-solid fa-users"
+
+    - title: "Agentic AI in Joule"
+      date: "Nov 2024"
+      occasion: "SAP Select keynote demo"
+      icon: "fa-solid fa-microphone-lines"
+
+    - title: "Revolutionize ABAP development with Joule, our generative AI copilot"
+      date: "Oct 2024"
+      occasion: "TechEd lecture"
+      url: "https://www.sap.com/events/teched/virtual/flow/sap/te24/catalog/page/catalog/session/1722557682037001fGiG"
+      icon: "fa-solid fa-code"
+
+    - title: "Beyond Chatbots: Building Enterprise LLM-based Applications"
+      date: "Feb 2024"
+      occasion: "360DevConnect Berlin Meetup"
+      url: "https://www.meetup.com/360-degree-software-technology/events/298914887"
+      icon: "fa-solid fa-users"
+
+
+
 
 projects:
   title: "Projects"
   enable: true
 
   project_items:
+  - title: "AI Assistants for ABAP Developers"
+    description: "Leading a data science team at SAP focusing on ABAP developer efficiency features for Joule (SAP's AI Copilot), including code completion, code generation, and code explanation."
+    highlights:
+      - developed ABAP foundation models,
+      - supervised fine-tuning for code completion and explanation,
+      - released as part of ABAP development tools.
+
+    button:
+      enable: true
+      icon: "icon-arrow-right"
+      btnText: "TechEd Session"
+      URL: "https://www.sap.com/events/teched/virtual/flow/sap/te24/catalog/page/catalog/session/1722557682037001fGiG"
+
+    image:
+      x: "img/works/genai4abap.jpg"
+      _2x: "img/works/genai4abap.jpg"
+
+    is_even: true
+
+  - title: "Automated Document Processing"
+    description: "SAP's premium Document Information Extraction service automates the processing of business documents like invoices and delivery notes with generative AI. This enables customizable extraction schemas and adds support for over 40 languages."
+    highlights:
+      - developed custom multi-modal models,
+      - integrated LLMs for document processing,
+      - fine-tuned large language models for business document processing.
+
+    button:
+      enable: true
+      icon: "icon-arrow-right"
+      btnText: "Documentation"
+      URL: "https://help.sap.com/docs/document-information-extraction"
+
+    image:
+      x: "img/works/dox_2x.jpg"
+      _2x: "img/works/dox_2x.jpg"
+
+    is_even: false
+
   - title: "Bipartite Motif Finder (BMF)"
-    description: "Open-source tool and web server for learning enriched spaced sub-sequences,
-    highlighting binding preferences of a given RNA-binding protein."
+    description: "Open-source tool and web server for predicting spaced RNA sub-sequences attracting RNA-binding proteins."
     highlights:
       - optimized code for speed (AVX-optimization/C++/Cython),
       - handled several terabytes of interaction data, explored several datasets to uncover interesting patterns,
@@ -185,8 +247,8 @@ projects:
     button:
       enable: true
       icon: "icon-arrow-right"
-      btnText: "Web Server"
-      URL: "https://bmf.soedinglab.org"
+      btnText: "Manuscript"
+      URL: "https://academic.oup.com/bioinformatics/article/37/Supplement_1/i308/6319712"
 
     image:
       x: "img/works/bmf.jpg"
@@ -194,23 +256,10 @@ projects:
 
     is_even: true
 
-  - title: "Representation Learning to Predict Protein Function"
-    description: "Using pre-trained sequence-based representation to enhance NN classification of
-    protein function (ungoing research)."
-    highlights:
-      - worked with, designed, and manipulated neural networks (PyTorch and Keras),
-      - supervised and trained two students in understanding and applying neural networks.
-    button:
-      enable: false
-    image:
-      x: "img/works/esm.jpg"
-      _2x: "img/works/esm_2x.jpg"
-    is_even: false
-
   - title: "CNNs to Predict Transcription Activation"
-    description: "Collaboration on using CNNs to find protein sequences that can activate gene transcription."
+    description: "Leveraged CNNs to find protein sequences that can activate gene transcription."
     highlights:
-      - developed methods to interpret network predictions,
+      - developed methods to interpret CNN predictions,
       - compared the performance of the trained CNN with simpler ML classifiers.
 
     button:
@@ -222,27 +271,7 @@ projects:
     image:
       x: "img/works/adpred.jpg"
       _2x: "img/works/adpred_2x.jpg"
-    is_even: true
-
-
-  - title: "Characterize RNA Degradation Proteins"
-    description: "Analyzed large-scale maps of 30 RNA degradation proteins to uncover
-    their function and cross-correlated the data with available RNA-protein interaction datasets to identify potential partners."
-    highlights:
-      - exploratory analysis of a terabytes-sized sequence dataset to find functional signatures,
-      - worked alongside an interdisciplinary team of experimental and theoretical researchers.
-  #    - presented the results in several scientific meetings and received two presentation awards.
-
-    button:
-      enable: True
-      icon: "icon-arrow-right"
-      btnText: "Manuscript"
-      URL: "https://elifesciences.org/articles/47040"
-
-    image:
-      x: "img/works/degradation.jpg"
-      _2x: "img/works/degradation_2x.jpg"
-    is_even: False
+    is_even: false
 
 
 # contact
