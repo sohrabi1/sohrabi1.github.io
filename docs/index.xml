@@ -4,7 +4,9 @@
     <title></title>
     <link>https://salma.sohrabi.dev/</link>
     <description>Recent content on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://salma.sohrabi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://salma.sohrabi.dev/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
