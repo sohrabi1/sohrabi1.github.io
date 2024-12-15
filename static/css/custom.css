@@ -1,4 +1,18 @@
 /* You can customize theme styles here */
+.outreach {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  min-height: 115px
+}
+
 .certification__date {
     position: relative;
     font-size: 14px;

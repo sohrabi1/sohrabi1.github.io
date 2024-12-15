@@ -32,44 +32,44 @@ URL = "js/library/fontfaceobserver.js"
 [menu]
 
 [[menu.header]]
-name = "Education"
-URL = "#education"
+name = "Projects"
+URL = "#projects"
+weight = 2
+
+[[menu.header]]
+name = "Outreach"
+URL = "#outreach"
 weight = 3
 
 [[menu.header]]
-name = "Publications"
-URL = "#experience"
+name = "Education"
+URL = "#education"
 weight = 4
-
-[[menu.header]]
-name = "Projects"
-URL = "#projects"
-weight = 5
 
 [[menu.header]]
 name = "Contact"
 URL = "#contact"
-weight = 6
-
-[[menu.footer]]
-name = "Education"
-URL = "#education"
-weight = 3
-
-[[menu.footer]]
-name = "Publications"
-URL = "#experience"
-weight = 4
+weight = 5
 
 [[menu.footer]]
 name = "Projects"
 URL = "#projects"
-weight = 5
+weight = 2
+
+[[menu.footer]]
+name = "Outreach"
+URL = "#outreach"
+weight = 3
+
+[[menu.footer]]
+name = "Education"
+URL = "#education"
+weight = 4
 
 [[menu.footer]]
 name = "Contact"
 URL = "#contact"
-weight = 6
+weight = 5
 
 
 [params]
@@ -77,11 +77,11 @@ weight = 6
 sections = [
   "showcase",
   "about",
+  "projects",
+  "outreach",
   "education",
   "certifications",
   "experience",
-  "projects",
-  "client-and-work",
   "testimonial",
   "contact",
   "newsletter",
@@ -94,4 +94,4 @@ text1 = "Salma"
 text2 = "Sohrabi-Jahromi"
 
 [params.footer]
-copyright = "© 2021 Salma Sohrabi-Jahromi."
+copyright = "© 2024 Salma Sohrabi-Jahromi."
