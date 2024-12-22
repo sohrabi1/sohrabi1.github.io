@@ -40,26 +40,19 @@ showcase:
 about:
   enable: true
   title: "Who am I?"
-  content: '<p class="lead">
-    With an academic background in Machine Learning and Computational Biology, I currently work as a Senior AI scientist in the Foundation Model Research team at SAP. My work focuses on fine-tuning large language models and building Generative AI Applications. I currently lead the Data Science team at SAP, where we build AI assistants for ABAP developers.
-    </p>
-    <p class="lead">
-    My academic research focused on developing statistical and machine learning models (NLP) based on high-throughput sequencing datasets to better understand biological systems.
-
-    </p>
-    <p class="lead">
-    I like spending my free time hiking, reading popular science books, and playing board games.
-    The pandemic encouraged me to rediscover my painting passion.
-    </p>'
+  content:
+    - With an academic background in Machine Learning and Computational Biology, I currently work as a Senior AI scientist in the Foundation Model Research team at SAP. My work focuses on fine-tuning large language models and building Generative AI Applications. I currently lead the Data Science team at SAP, where we build AI assistants for ABAP developers.
+    - My academic research focused on developing statistical and machine learning models (NLP) based on high-throughput sequencing datasets to better understand biological systems.
+    - I like spending my free time hiking, reading popular science books, and playing board games. The pandemic encouraged me to rediscover my painting passion.
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/ssohrabi/"
   image:
-    x: "img/who-am-i/personal.png"
-    _2x: "img/who-am-i/personal_2X.png"
+    x: "img/who-am-i/personal.jpg"
+    _2x: "img/who-am-i/personal.jpg"
   imageMobile:
-    x: "img/who-am-i/personal_mobile.jpg"
+    x: "img/who-am-i/personal.jpg"
 
 # education
 education:
