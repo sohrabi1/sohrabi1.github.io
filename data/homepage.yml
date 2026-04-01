@@ -198,7 +198,7 @@ projects:
       enable: true
       icon: "icon-arrow-right"
       btnText: "Learn More"
-      URL: "https://aws.amazon.com/ai/nova/"
+      URL: "https://www.amazon.science/publications/amazon-nova-2-multimodal-reasoning-and-generation-models"
 
     image:
       x: "img/works/nova.jpg"
